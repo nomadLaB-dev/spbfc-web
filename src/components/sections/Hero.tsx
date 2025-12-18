@@ -54,7 +54,7 @@ export function Hero() {
                     <div className="flex flex-col sm:flex-row gap-4">
                         <Button
                             size="lg"
-                            className="bg-[#007AFF] hover:bg-[#0062CC] text-white text-lg font-bold px-10 py-6 h-auto rounded-full shadow-lg hover:shadow-xl transition-all"
+                            className="bg-[#007AFF] hover:bg-[#0062CC] text-white text-lg font-bold px-8 py-4 h-auto rounded-full shadow-lg hover:shadow-xl transition-all"
                         >
                             資料請求・お問い合わせ
                             <ArrowRight className="ml-2 h-5 w-5" />
@@ -62,7 +62,7 @@ export function Hero() {
                         <Button
                             size="lg"
                             variant="outline"
-                            className="text-white border-white/70 bg-white/10 hover:bg-white/20 hover:text-white text-lg px-10 py-6 h-auto rounded-full backdrop-blur-sm transition-all"
+                            className="text-white border-white/70 bg-white/10 hover:bg-white/20 hover:text-white text-lg px-8 py-4 h-auto rounded-full backdrop-blur-sm transition-all"
                         >
                             ビジネスモデルを知る
                         </Button>
