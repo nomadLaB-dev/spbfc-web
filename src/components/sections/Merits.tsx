@@ -48,7 +48,7 @@ export function Merits() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
                 >
-                    <span className="text-[#007AFF] font-bold tracking-widest uppercase mb-2 block">Merits</span>
+                    <span className="text-[#29acbb] font-bold tracking-widest uppercase mb-2 block">Merits</span>
                     <h2 className="text-3xl md:text-5xl font-black mb-6 text-slate-900">
                         SPB-FC加盟のメリット
                     </h2>
@@ -69,7 +69,7 @@ export function Merits() {
                         transition={{ duration: 0.5, delay: index * 0.1 }}
                         className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow border border-slate-100 group"
                     >
-                        <div className="text-[#007AFF] mb-6 group-hover:scale-110 transition-transform duration-300">
+                        <div className="text-[#29acbb] mb-6 group-hover:scale-110 transition-transform duration-300">
                             {item.icon}
                         </div>
                         <h3 className="text-xl font-bold mb-4 text-slate-900">{item.title}</h3>

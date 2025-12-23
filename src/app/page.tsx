@@ -11,7 +11,7 @@ import { Contact } from "@/components/sections/Contact";
 
 export default function Home() {
   return (
-    <div className="min-h-screen font-sans bg-slate-50 selection:bg-[#007AFF] selection:text-white">
+    <div className="min-h-screen font-sans bg-slate-50 selection:bg-[#29acbb] selection:text-white">
       <Header />
       <main>
         <Hero />

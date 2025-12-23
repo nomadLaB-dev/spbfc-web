@@ -20,15 +20,15 @@ export function CoreSystem() {
                     transition={{ duration: 0.6 }}
                 >
                     <div className="flex items-center gap-2 mb-4">
-                        <div className="bg-[#007AFF]/10 p-2 rounded-lg">
-                            <Laptop className="w-6 h-6 text-[#007AFF]" />
+                        <div className="bg-[#29acbb]/10 p-2 rounded-lg">
+                            <Laptop className="w-6 h-6 text-[#29acbb]" />
                         </div>
-                        <span className="text-[#007AFF] font-bold tracking-widest uppercase">Core System</span>
+                        <span className="text-[#29acbb] font-bold tracking-widest uppercase">Core System</span>
                     </div>
 
                     <h2 className="text-3xl md:text-5xl font-black mb-6 text-slate-900 leading-tight">
                         運営コアシステム<br />
-                        <span className="text-[#007AFF]">「ユルケア」</span>
+                        <span className="text-[#29acbb]">「ユルケア」</span>
                     </h2>
 
                     <p className="text-slate-600 text-lg leading-relaxed mb-8">
@@ -39,7 +39,7 @@ export function CoreSystem() {
                     <div className="space-y-6">
                         <div className="flex gap-4">
                             <div className="mt-1">
-                                <div className="bg-[#007AFF] w-8 h-8 rounded-full flex items-center justify-center text-white">
+                                <div className="bg-[#29acbb] w-8 h-8 rounded-full flex items-center justify-center text-white">
                                     <span className="font-bold">1</span>
                                 </div>
                             </div>
@@ -53,7 +53,7 @@ export function CoreSystem() {
 
                         <div className="flex gap-4">
                             <div className="mt-1">
-                                <div className="bg-[#007AFF] w-8 h-8 rounded-full flex items-center justify-center text-white">
+                                <div className="bg-[#29acbb] w-8 h-8 rounded-full flex items-center justify-center text-white">
                                     <span className="font-bold">2</span>
                                 </div>
                             </div>
@@ -79,10 +79,10 @@ export function CoreSystem() {
                     <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[120%] h-[120%] bg-blue-50/50 rounded-full blur-3xl -z-10" />
 
                     <Card className="border-none shadow-2xl bg-white/80 backdrop-blur-sm relative overflow-hidden">
-                        <div className="absolute top-0 w-full h-1 bg-gradient-to-r from-[#007AFF] to-blue-400" />
+                        <div className="absolute top-0 w-full h-1 bg-gradient-to-r from-[#29acbb] to-blue-400" />
                         <CardContent className="p-8">
                             <div className="text-center mb-8">
-                                <div className="inline-block px-4 py-1 rounded-full bg-blue-100 text-[#007AFF] text-sm font-bold mb-2">
+                                <div className="inline-block px-4 py-1 rounded-full bg-blue-100 text-[#29acbb] text-sm font-bold mb-2">
                                     ALL IN ONE
                                 </div>
                                 <h3 className="text-2xl font-bold text-slate-800">Yuru Care System</h3>
@@ -90,14 +90,14 @@ export function CoreSystem() {
 
                             <div className="grid grid-cols-2 gap-4">
                                 <div className="bg-slate-50 p-4 rounded-xl border border-slate-100 flex flex-col items-center text-center gap-2">
-                                    <Database className="w-8 h-8 text-[#007AFF]" />
+                                    <Database className="w-8 h-8 text-[#29acbb]" />
                                     <span className="font-bold text-slate-700 text-sm">利用者台帳</span>
                                 </div>
                                 <div className="bg-slate-50 p-4 rounded-xl border border-slate-100 flex flex-col items-center text-center gap-2">
-                                    <UserCheck className="w-8 h-8 text-[#007AFF]" />
+                                    <UserCheck className="w-8 h-8 text-[#29acbb]" />
                                     <span className="font-bold text-slate-700 text-sm">スタッフ管理</span>
                                 </div>
-                                <div className="bg-[#007AFF] p-4 rounded-xl border border-blue-500 flex flex-col items-center text-center gap-2 col-span-2 shadow-lg transform hover:scale-[1.02] transition-transform">
+                                <div className="bg-[#29acbb] p-4 rounded-xl border border-blue-500 flex flex-col items-center text-center gap-2 col-span-2 shadow-lg transform hover:scale-[1.02] transition-transform">
                                     <CheckCircle2 className="w-10 h-10 text-white" />
                                     <span className="font-bold text-white">国保連・利用者請求データ<br />自動作成</span>
                                 </div>

@@ -39,7 +39,7 @@ export function Header() {
                 <Link href="/" className="flex items-center gap-2">
                     {/* Using a text fallback or local image if available */}
                     <div className="flex items-center">
-                        <span className={cn("text-2xl font-black tracking-tighter", isScrolled ? "text-[#007AFF]" : "text-white")}>
+                        <span className={cn("text-2xl font-black tracking-tighter", isScrolled ? "text-[#29acbb]" : "text-white")}>
                             SPB-FC
                         </span>
                         <span className={cn("ml-2 text-sm font-bold", isScrolled ? "text-slate-800" : "text-white/90")}>
@@ -55,7 +55,7 @@ export function Header() {
                             key={item.href}
                             href={item.href}
                             className={cn(
-                                "text-sm font-medium transition-colors hover:text-[#007AFF]",
+                                "text-sm font-medium transition-colors hover:text-[#29acbb]",
                                 isScrolled ? "text-slate-700" : "text-white/90"
                             )}
                         >
@@ -63,7 +63,7 @@ export function Header() {
                         </Link>
                     ))}
                     <Button
-                        className="bg-[#007AFF] hover:bg-[#0062CC] text-white font-bold rounded-full px-6"
+                        className="bg-[#29acbb] hover:bg-[#1f8b97] text-white font-bold rounded-full px-6"
                         asChild
                     >
                         <Link href="#contact">
@@ -85,14 +85,14 @@ export function Header() {
                                 <Link
                                     key={item.href}
                                     href={item.href}
-                                    className="text-lg font-medium text-slate-800 hover:text-[#007AFF] transition-colors"
+                                    className="text-lg font-medium text-slate-800 hover:text-[#29acbb] transition-colors"
                                     onClick={() => setIsOpen(false)}
                                 >
                                     {item.label}
                                 </Link>
                             ))}
                             <Button
-                                className="bg-[#007AFF] hover:bg-[#0062CC] text-white font-bold w-full mt-4"
+                                className="bg-[#29acbb] hover:bg-[#1f8b97] text-white font-bold w-full mt-4"
                                 asChild
                                 onClick={() => setIsOpen(false)}
                             >

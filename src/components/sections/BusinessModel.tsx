@@ -15,7 +15,7 @@ export function BusinessModel() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
                 >
-                    <span className="text-[#007AFF] font-bold tracking-widest uppercase mb-2 block">Business Model</span>
+                    <span className="text-[#29acbb] font-bold tracking-widest uppercase mb-2 block">Business Model</span>
                     <h2 className="text-3xl md:text-5xl font-black mb-6">
                         安定した収益構造
                     </h2>
@@ -46,7 +46,7 @@ export function BusinessModel() {
                                 initial={{ height: "0%" }}
                                 whileInView={{ height: "70%" }}
                                 transition={{ duration: 0.8 }}
-                                className="w-full bg-[#007AFF] rounded-t-sm relative flex items-center justify-center text-white border-b border-white/20"
+                                className="w-full bg-[#29acbb] rounded-t-sm relative flex items-center justify-center text-white border-b border-white/20"
                             >
                                 <span className="text-lg font-bold">訓練等給付費</span>
                                 <span className="absolute text-xs bottom-2 text-white/80">（国保連より入金）</span>
@@ -55,7 +55,7 @@ export function BusinessModel() {
                                 initial={{ height: "0%" }}
                                 whileInView={{ height: "30%" }}
                                 transition={{ duration: 0.8, delay: 0.2 }}
-                                className="w-full bg-blue-400 rounded-b-sm relative flex items-center justify-center text-white"
+                                className="w-full bg-[#65d3e0] rounded-b-sm relative flex items-center justify-center text-white"
                             >
                                 <span className="text-lg font-bold">利用者負担</span>
                                 <span className="absolute text-xs bottom-2 text-white/80">（家賃・食費等）</span>
@@ -104,12 +104,12 @@ export function BusinessModel() {
                             <CardContent className="p-4 flex items-center justify-between">
                                 <div>
                                     <div className="text-sm text-slate-400">平均入居期間</div>
-                                    <div className="text-3xl font-black text-[#007AFF]">5年<span className="text-base text-white ml-1">以上</span></div>
+                                    <div className="text-3xl font-black text-[#29acbb]">5年<span className="text-base text-white ml-1">以上</span></div>
                                 </div>
                                 <div className="h-10 w-[1px] bg-slate-600"></div>
                                 <div>
                                     <div className="text-sm text-slate-400">給付金入金率</div>
-                                    <div className="text-3xl font-black text-[#007AFF]">100%</div>
+                                    <div className="text-3xl font-black text-[#29acbb]">100%</div>
                                 </div>
                             </CardContent>
                         </Card>

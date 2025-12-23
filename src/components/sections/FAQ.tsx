@@ -43,7 +43,7 @@ export function FAQ() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
                 >
-                    <span className="text-[#007AFF] font-bold tracking-widest uppercase mb-2 block">FAQ</span>
+                    <span className="text-[#29acbb] font-bold tracking-widest uppercase mb-2 block">FAQ</span>
                     <h2 className="text-3xl md:text-5xl font-black mb-6 text-slate-900">
                         よくあるご質問
                     </h2>
@@ -54,7 +54,7 @@ export function FAQ() {
                 <Accordion type="single" collapsible className="w-full">
                     {faqs.map((item, index) => (
                         <AccordionItem key={index} value={`item-${index}`} className="border-b border-slate-200">
-                            <AccordionTrigger className="text-left font-bold text-slate-800 hover:text-[#007AFF] transition-colors py-6 text-lg">
+                            <AccordionTrigger className="text-left font-bold text-slate-800 hover:text-[#29acbb] transition-colors py-6 text-lg">
                                 {item.question}
                             </AccordionTrigger>
                             <AccordionContent className="text-slate-600 leading-relaxed pb-6 text-base">

@@ -16,7 +16,7 @@ export function Concept() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
                 >
-                    <span className="text-[#007AFF] font-bold tracking-widest uppercase mb-2 block">Concept</span>
+                    <span className="text-[#29acbb] font-bold tracking-widest uppercase mb-2 block">Concept</span>
                     <h2 className="text-3xl md:text-5xl font-black mb-6 text-slate-900">
                         圧倒的な「不足」を解消する
                     </h2>
@@ -70,34 +70,34 @@ export function Concept() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.6, delay: 0.4 }}
                 >
-                    <Card className="h-full border-[#007AFF]/20 bg-white shadow-xl relative overflow-hidden transform md:-translate-y-4">
-                        <div className="absolute top-0 left-0 w-full h-2 bg-[#007AFF]" />
+                    <Card className="h-full border-[#29acbb]/20 bg-white shadow-xl relative overflow-hidden transform md:-translate-y-4">
+                        <div className="absolute top-0 left-0 w-full h-2 bg-[#29acbb]" />
                         <CardHeader>
-                            <CardTitle className="text-2xl text-[#007AFF] font-black text-center">SPB-FC のソリューション</CardTitle>
+                            <CardTitle className="text-2xl text-[#29acbb] font-black text-center">SPB-FC のソリューション</CardTitle>
                         </CardHeader>
                         <CardContent>
                             <ul className="space-y-4">
                                 <li className="flex items-start gap-3">
-                                    <div className="bg-[#007AFF]/10 p-1 rounded-full">
-                                        <Check className="w-4 h-4 text-[#007AFF]" />
+                                    <div className="bg-[#29acbb]/10 p-1 rounded-full">
+                                        <Check className="w-4 h-4 text-[#29acbb]" />
                                     </div>
                                     <span className="font-bold text-slate-800">障害者へ「安心・安全な住まい」を提供</span>
                                 </li>
                                 <li className="flex items-start gap-3">
-                                    <div className="bg-[#007AFF]/10 p-1 rounded-full">
-                                        <Check className="w-4 h-4 text-[#007AFF]" />
+                                    <div className="bg-[#29acbb]/10 p-1 rounded-full">
+                                        <Check className="w-4 h-4 text-[#29acbb]" />
                                     </div>
                                     <span className="font-bold text-slate-800">空き家を活用し、地域問題を解決</span>
                                 </li>
                                 <li className="flex items-start gap-3">
-                                    <div className="bg-[#007AFF]/10 p-1 rounded-full">
-                                        <Check className="w-4 h-4 text-[#007AFF]" />
+                                    <div className="bg-[#29acbb]/10 p-1 rounded-full">
+                                        <Check className="w-4 h-4 text-[#29acbb]" />
                                     </div>
                                     <span className="font-bold text-slate-800">国からの給付金による安定経営</span>
                                 </li>
                                 <li className="flex items-start gap-3">
-                                    <div className="bg-[#007AFF]/10 p-1 rounded-full">
-                                        <Check className="w-4 h-4 text-[#007AFF]" />
+                                    <div className="bg-[#29acbb]/10 p-1 rounded-full">
+                                        <Check className="w-4 h-4 text-[#29acbb]" />
                                     </div>
                                     <span className="font-bold text-slate-800">社会貢献と収益性の両立</span>
                                 </li>

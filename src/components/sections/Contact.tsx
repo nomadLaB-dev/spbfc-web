@@ -13,7 +13,7 @@ export function Contact() {
     return (
         <Section id="contact" className="bg-slate-50 relative overflow-hidden">
             {/* Decorative Elements */}
-            <div className="absolute top-0 right-0 w-1/2 h-full bg-[#007AFF]/5 skew-x-12 translate-x-1/4 pointer-events-none" />
+            <div className="absolute top-0 right-0 w-1/2 h-full bg-[#29acbb]/5 skew-x-12 translate-x-1/4 pointer-events-none" />
 
             <div className="container mx-auto px-4 md:px-6 relative z-10">
                 <div className="grid lg:grid-cols-2 gap-12 items-start">
@@ -24,7 +24,7 @@ export function Contact() {
                         viewport={{ once: true }}
                         transition={{ duration: 0.6 }}
                     >
-                        <span className="text-[#007AFF] font-bold tracking-widest uppercase mb-2 block">Contact</span>
+                        <span className="text-[#29acbb] font-bold tracking-widest uppercase mb-2 block">Contact</span>
                         <h2 className="text-3xl md:text-5xl font-black mb-6 text-slate-900 leading-tight">
                             まずは資料請求・<br />説明会へご参加ください
                         </h2>
@@ -35,7 +35,7 @@ export function Contact() {
 
                         <div className="space-y-6">
                             <div className="flex items-center gap-4">
-                                <div className="bg-[#007AFF]/10 p-3 rounded-full text-[#007AFF]">
+                                <div className="bg-[#29acbb]/10 p-3 rounded-full text-[#29acbb]">
                                     <Phone className="w-6 h-6" />
                                 </div>
                                 <div>
@@ -46,7 +46,7 @@ export function Contact() {
                             </div>
 
                             <div className="flex items-center gap-4">
-                                <div className="bg-[#007AFF]/10 p-3 rounded-full text-[#007AFF]">
+                                <div className="bg-[#29acbb]/10 p-3 rounded-full text-[#29acbb]">
                                     <Mail className="w-6 h-6" />
                                 </div>
                                 <div>
@@ -99,7 +99,7 @@ export function Contact() {
                                         <Textarea id="message" placeholder="資料請求、説明会参加希望など" className="min-h-[100px]" />
                                     </div>
 
-                                    <Button type="submit" className="w-full bg-[#007AFF] hover:bg-[#0062CC] text-white font-bold h-12 text-lg mt-4">
+                                    <Button type="submit" className="w-full bg-[#29acbb] hover:bg-[#1f8b97] text-white font-bold h-12 text-lg mt-4">
                                         送信する <ArrowRight className="ml-2 w-5 h-5" />
                                     </Button>
                                 </form>

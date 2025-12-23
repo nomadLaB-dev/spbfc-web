@@ -44,7 +44,7 @@ export function Testimonials() {
                     viewport={{ once: true }}
                     transition={{ duration: 0.6 }}
                 >
-                    <span className="text-[#007AFF] font-bold tracking-widest uppercase mb-2 block">Voices</span>
+                    <span className="text-[#29acbb] font-bold tracking-widest uppercase mb-2 block">Voices</span>
                     <h2 className="text-3xl md:text-5xl font-black mb-6 text-slate-900">
                         オーナー様の声
                     </h2>
@@ -69,7 +69,7 @@ export function Testimonials() {
                                 <div className="p-1 h-full">
                                     <Card className="h-full border-none shadow-md hover:shadow-lg transition-shadow bg-white">
                                         <CardContent className="flex flex-col p-8 h-full">
-                                            <Quote className="w-10 h-10 text-[#007AFF]/20 mb-6" />
+                                            <Quote className="w-10 h-10 text-[#29acbb]/20 mb-6" />
                                             <p className="text-slate-600 mb-8 flex-grow leading-relaxed italic">
                                                 "{item.content}"
                                             </p>

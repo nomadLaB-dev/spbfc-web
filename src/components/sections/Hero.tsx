@@ -28,7 +28,7 @@ export function Hero() {
                     className="max-w-4xl"
                 >
                     <div className="flex items-center gap-2 mb-6">
-                        <span className="bg-[#007AFF] text-white px-3 py-1 text-sm font-bold rounded-sm uppercase tracking-wider">
+                        <span className="bg-[#29acbb] text-white px-3 py-1 text-sm font-bold rounded-sm uppercase tracking-wider">
                             Franchise
                         </span>
                         <span className="text-slate-300 font-medium tracking-wide">
@@ -54,7 +54,7 @@ export function Hero() {
                     <div className="flex flex-col sm:flex-row gap-4">
                         <Button
                             size="lg"
-                            className="bg-[#007AFF] hover:bg-[#0062CC] text-white text-lg font-bold px-8 py-4 h-auto rounded-full shadow-lg hover:shadow-xl transition-all"
+                            className="bg-[#29acbb] hover:bg-[#1f8b97] text-white text-lg font-bold px-8 py-4 h-auto rounded-full shadow-lg hover:shadow-xl transition-all"
                         >
                             資料請求・お問い合わせ
                             <ArrowRight className="ml-2 h-5 w-5" />
@@ -77,8 +77,8 @@ export function Hero() {
                 transition={{ delay: 1, duration: 1 }}
                 className="absolute bottom-10 left-1/2 -translate-x-1/2 text-white/50 flex flex-col items-center gap-2"
             >
-                <span className="text-xs uppercase tracking-widest text-[#007AFF]">Scroll</span>
-                <div className="w-[1px] h-12 bg-gradient-to-b from-[#007AFF] to-transparent" />
+                <span className="text-xs uppercase tracking-widest text-[#29acbb]">Scroll</span>
+                <div className="w-[1px] h-12 bg-gradient-to-b from-[#29acbb] to-transparent" />
             </motion.div>
         </div>
     );
